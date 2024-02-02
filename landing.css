@@ -303,6 +303,11 @@ body {
   color: #fff;
 }
 
+.cards-get:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
 .price-bottom-text {
   text-align: center;
   margin: 2rem 0;
@@ -382,4 +387,166 @@ body {
 
 .page5-hr {
   width: 82rem;
+}
+
+.footer-div1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-bgc {
+  width: 110rem;
+  margin: auto;
+}
+
+.footer-bgc a img {
+  margin: 2.5rem 0 0 0;
+}
+
+.four-box {
+  display: flex;
+  height: 27rem;
+}
+
+.subriction {
+  width: 38rem;
+  height: 23rem;
+  margin-top: 2rem;
+  color: var(--dark-color);
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.subriction h5 {
+  padding: 1rem 0 1rem 1rem;
+  font-weight: 700;
+}
+
+.subriction p {
+  padding-left: 1rem;
+}
+
+.subriction input {
+  width: 35rem;
+  height: 3.5rem;
+  padding-left: 1rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
+.input {
+  padding-left: 1rem;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer-btn a {
+  width: 35.3rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer-btn:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+.company {
+  height: 23rem;
+  margin: 2rem 0 0 4.8rem;
+}
+
+.company :nth-child(1) {
+  margin-top: 2.5rem;
+  font-weight: 700;
+  cursor: auto;
+}
+
+.company :nth-child(2) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.company :nth-child(3) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.company :nth-child(4) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.resources {
+  height: 23rem;
+  margin: 2rem 0 0 10rem;
+}
+
+.resources :nth-child(1) {
+  margin-top: 2.5rem;
+  font-weight: 700;
+  cursor: auto;
+}
+
+.resources :nth-child(2) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.resources :nth-child(3) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.resources :nth-child(4) {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.contact {
+  height: 23rem;
+  margin: 2rem 0 0 10rem;
+}
+
+.contact :nth-child(1) {
+  margin-top: 6.5rem;
+  font-weight: 700;
+  cursor: auto;
+}
+
+.contact :nth-child(2) {
+  margin-top: 1.5rem;
+  color: #cccccc;
+  cursor: pointer;
+}
+
+.footer-icon {
+  padding-bottom: 3rem;
+}
+
+.footer-icon i {
+  font-size: 3rem;
+}
+
+.footer-icon :nth-child(2) {
+  margin-left: 1.5rem;
 }
