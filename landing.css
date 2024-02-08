@@ -324,10 +324,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.equal {
-  border: 2px solid lime;
-}
+  
 
 .plus-text {
   display: flex;
